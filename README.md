@@ -40,6 +40,6 @@
 
 ### FRIDA辅助分析OLLVM
 
-- FRIDA+IDA一起调试
+- FRIDA+IDA双开调试
 - FRIDA Native 花式hook
 - FRIDA主动调用确定数据流
