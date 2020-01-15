@@ -24,7 +24,8 @@
 ### FRIDA API篇
 
 - [rpc、Process、Module、Memory使用方法及示例](https://www.anquanke.com/post/id/195215)
-- Java、Interceptor、NativePointer(Function/Callback)使用方法及示例
+- [Java、Interceptor、NativePointer(Function/Callback)使用方法及示例](https://www.anquanke.com/post/id/195869)
+- [Frida Java Hook 详解（安卓9）：代码及示例（上）](https://mp.weixin.qq.com/s/2BdX-rtAu8WZuzY3pK94NQ)
 
 ### FRIDA HOOK 网络通信组件
 
