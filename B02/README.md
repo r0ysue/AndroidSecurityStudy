@@ -1,10 +1,10 @@
 ## FRIDA脚本系列（二）成长篇：动静态结合逆向WhatsApp
 
-在[FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例](https://www.anquanke.com/post/id/168152)中，我们学到了枚举模块中所有的类、子类及其方法，以及找到其所有重载，最终还通过蓝牙接口来小小的实战了一下。这一篇我们倒着来，从`hook`所有重载开始，写一个可以动态观察所有模块、类、方法等接口数据的工具出来。
+在[FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例](https://github.com/r0ysue/AndroidSecurityStudy)中，我们学到了枚举模块中所有的类、子类及其方法，以及找到其所有重载，最终还通过蓝牙接口来小小的实战了一下。这一篇我们倒着来，从`hook`所有重载开始，写一个可以动态观察所有模块、类、方法等接口数据的工具出来。
 
 ### 0x01.hook方法的所有重载
 
-在[一篇文章带你领悟Frida的精髓（基于安卓8.1）](https://github.com/hookmaster/frida-all-in-one/blob/master/03.%E5%9F%BA%E6%9C%AC%E6%A1%88%E4%BE%8B%E4%B8%8A%E6%89%8B/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B8%A6%E4%BD%A0%E9%A2%86%E6%82%9FFrida%E7%9A%84%E7%B2%BE%E9%AB%93(%E5%9F%BA%E4%BA%8E%E5%AE%89%E5%8D%938.1)/READMD.md)一文中，我们已经学会了对放的重载进行处理的方法，我们先回顾一下代码：
+在[一篇文章带你领悟Frida的精髓（基于安卓8.1）](https://github.com/r0ysue/AndroidSecurityStudy)一文中，我们已经学会了对放的重载进行处理的方法，我们先回顾一下代码：
 
 ```js
 my_class.fun.overload("int" , "int").implementation = function(x,y){

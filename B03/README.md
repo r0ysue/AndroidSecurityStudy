@@ -34,7 +34,7 @@
 
 ![](pic/04.gif)
 
-为了培养社会主义的接班人，让更多的人跟我一起去批判资本主义，我在朋友圈发了一些上述的视频（样本地址：[github主页](https://github.com/hookmaster/frida-all-in-one)/sample/TikTokJapan/，为了大家批判的足够充分，我采集了足够多的`mp4`样本。）
+为了培养社会主义的接班人，让更多的人跟我一起去批判资本主义，我在朋友圈发了一些上述的视频（[样本地址](tiktok)，为了大家批判的足够充分，我采集了足够多的`mp4`样本。）
 
 大家纷纷表示此时此刻正需要这样的反面教材，有人甚至发私信问我，如何可以得到更多的这样的反面教材，他们已经通过一系列方法，成功的进入敌人的大本营，奈何不懂日语，刷出来的都是一些索然无味的视频，非常懊恼。
 
@@ -169,7 +169,7 @@ $ adb pull /sdcard/01.png
 
 #### 按照结果决定是否点赞
 
-在`frida`客户端，将结果动态影响到`frida-server`是非常容易的，[前面的教程](https://github.com/hookmaster/frida-all-in-one/blob/master/03.%E5%9F%BA%E6%9C%AC%E6%A1%88%E4%BE%8B%E4%B8%8A%E6%89%8B/%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B8%A6%E4%BD%A0%E9%A2%86%E6%82%9FFrida%E7%9A%84%E7%B2%BE%E9%AB%93(%E5%9F%BA%E4%BA%8E%E5%AE%89%E5%8D%938.1)/READMD.md)中已经讲得非常丰富了。
+在`frida`客户端，将结果动态影响到`frida-server`是非常容易的，[前面的教程](https://github.com/r0ysue/AndroidSecurityStudy)中已经讲得非常丰富了。
 
 ### 0x04. 百度AI效果演示
 
