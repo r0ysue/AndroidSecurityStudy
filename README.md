@@ -8,22 +8,22 @@
 
 ---
 
-# FRIDA
+# 《FRIDA系列文章》
 
 
 ### 0.[似水流年](0/README.md)
 
 ### A.环境准备和入门篇
 
-- [01.Android环境准备：谷歌原版镜像8.1、TWRP、Magisk root](A01)
-- [02.一篇文章带你领悟frida的精髓（基于安卓8.1）](A02)
+- [01.Android环境准备：谷歌原版镜像8.1、TWRP、Magisk root](A01/README.md)
+- [02.一篇文章带你领悟frida的精髓（基于安卓8.1）](A02/README.md)
 
 ### B.FRIDA脚本篇
 
-- [01.FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例](B01)
-- [02.FRIDA脚本系列（二）成长篇：动静态结合逆向WhatsApp](B02)
-- [03.FRIDA脚本系列（三）超神篇：百度AI“调教”抖音AI](B03)
-- [04.FRIDA脚本系列（四）更新篇：几个主要机制的大更新](B04)
+- [01.FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例](B01/README.md)
+- [02.FRIDA脚本系列（二）成长篇：动静态结合逆向WhatsApp](B02/README.md)
+- [03.FRIDA脚本系列（三）超神篇：百度AI“调教”抖音AI](B03/README.md)
+- [04.FRIDA脚本系列（四）更新篇：几个主要机制的大更新](B04/README.md)
 
 ### C.FRIDA API篇
 
