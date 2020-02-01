@@ -10,9 +10,6 @@
 
 # 《FRIDA系列文章》
 
-
-### 0.[似水流年](0/README.md)
-
 ### A.环境准备和入门篇
 
 - [01.Android环境准备：谷歌原版镜像8.1、TWRP、Magisk root](A01/README.md)
