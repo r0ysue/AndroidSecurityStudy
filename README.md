@@ -27,7 +27,7 @@
 - [01.FRIDA-API使用篇：rpc、Process、Module、Memory使用方法及示例](https://www.anquanke.com/post/id/195215)
 - [02.FRIDA-API使用篇：Java、Interceptor、NativePointer(Function/Callback)使用方法及示例](https://www.anquanke.com/post/id/195869)
 - [03.Frida Java Hook 详解（安卓9）：代码及示例（上）](https://mp.weixin.qq.com/s/2BdX-rtAu8WZuzY3pK94NQ)
-- 04.Frida Java Hook 详解（安卓9）：代码及示例（下）
+- [04.Frida Java Hook 详解（安卓9）：代码及示例（下）](https://mp.weixin.qq.com/s/heK_r0zXo_6_RoA37yPtGQ)
 
 ### D.实用FRIDA篇
 
