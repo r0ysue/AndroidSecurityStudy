@@ -41,12 +41,10 @@
 
 ## 源码系列
 
-- [2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布](https://www.anquanke.com/post/id/199898)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
+- [2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布](https://www.anquanke.com/post/id/199898)
 - [FART源码解析及编译镜像支持到Pixel2(xl)](https://www.anquanke.com/post/id/201896)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
 
 > `Kali Linux`虚拟机下载种子在`FART/`文件夹中
-
-> 还是有一两个版本的编译还在搞，源码太难拖了（实名diss墙越来越高了）
 
 ## 操作系列
 
