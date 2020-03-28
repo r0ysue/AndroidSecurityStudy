@@ -33,6 +33,7 @@
 
 - [01.实用FRIDA进阶：内存漫游、`hook anywhere`、抓包](https://www.anquanke.com/post/id/197657)
 - [02.实用FRIDA进阶：脱壳、自动化、实用问题集锦](https://www.anquanke.com/post/id/197670)
+- 03.实用FRIDA进阶：主动调用，密码克星
 
 ---
 
@@ -40,7 +41,8 @@
 
 ## 源码系列
 
-- 2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
+- [2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布](https://www.anquanke.com/post/id/199898)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
+- [FART源码解析及编译镜像支持到Pixel2(xl)](https://www.anquanke.com/post/id/201896)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
 
 > `Kali Linux`虚拟机下载种子在`FART/`文件夹中
 
