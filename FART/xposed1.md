@@ -169,7 +169,7 @@ locking/unlocking:
 
 将手机进入`bootloader`模式，这里以`pixel`一代`sailfish`为例，刚刚下载的镜像也是专为`sailfish`这个型号准备的。首先完全关闭手机（可以等关机息屏后再等待一分钟），然后按住音量向下键，再按开机键开机，手机会进入如图状态，就是`bootloader`模式：
 
-![](picC/6.jpg)
+![](picC/6.png)
 
 `usb`线连接到电脑后，可以使用`fastboot`命令检测到：
 
@@ -288,7 +288,7 @@ SR3-SuperSU-v2.82-SR3-20170813133244.zip: 1 file pushed, 0 skipped. 21.8 MB/s (6
 
 4. 选择`Install`，浏览到`/sdcard/`目录下，点选`SR3-SuperSU-v2.82-SR3-20170813133244.zip`文件，将最下方滑块从最左拖到最右，即开始刷入`SuperSU`。刷入成功后如图所示。
 
-![](picC/7.jpg)
+![](picC/7.png)
 
 选择`Reboot System`→ `Do Not Install`即可。
 
