@@ -13,7 +13,7 @@
 ## A.环境准备和入门篇
 
 - [01.Android环境准备：谷歌原版镜像8.1、TWRP、Magisk root](FRIDA/A01/README.md)
-- [02.一篇文章带你领悟frida的精髓（基于安卓8.1）](FRIDA/A02/README.md)（代码已更新：20200512）
+- [02.一篇文章带你领悟frida的精髓（基于安卓8.1）](FRIDA/A02/README.md)（代码已更新：20200512，具体见文件夹压缩包）
 
 ## B.FRIDA脚本篇
 
