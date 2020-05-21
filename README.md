@@ -44,13 +44,11 @@
 - [2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布](https://www.anquanke.com/post/id/199898)
 - [FART源码解析及编译镜像支持到Pixel2(xl)](https://www.anquanke.com/post/id/201896)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
 - [`XPOSED`魔改一：获取特征](FART/xposed1.md)
-- `XPOSED`魔改二：编译源码
-- `XPOSED`魔改三：更改特征
-
-
+- `XPOSED`魔改二：编译源码：来自高纬的对抗②：魔改XPOSED过框架检测(上)
+- `XPOSED`魔改三：更改特征：来自高纬的对抗③：魔改XPOSED过框架检测(下)
 
 > `Kali Linux`虚拟机下载种子在`FART/`文件夹中
 
 ## 操作系列
 
-- FART脱壳指南
+- [来自高纬的对抗①：定制ART解释器脱所有一二代壳](https://mp.weixin.qq.com/s/3tjY_03aLeluwXZGgl3ftw)  （[附件](FART/H1/attachment)）
