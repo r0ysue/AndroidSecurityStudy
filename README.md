@@ -44,11 +44,21 @@
 - [2020年安卓源码编译指南及`FART`脱壳机谷歌全设备镜像发布](https://www.anquanke.com/post/id/199898)
 - [FART源码解析及编译镜像支持到Pixel2(xl)](https://www.anquanke.com/post/id/201896)（链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u）
 - [`XPOSED`魔改一：获取特征](FART/xposed1.md)
-- `XPOSED`魔改二：编译源码：来自高纬的对抗②：魔改XPOSED过框架检测(上)
-- `XPOSED`魔改三：更改特征：来自高纬的对抗③：魔改XPOSED过框架检测(下)
 
 > `Kali Linux`虚拟机下载种子在`FART/`文件夹中
 
-## 操作系列
+## OPPOSRC：来自高纬的对抗系列
 
 - [来自高纬的对抗①：定制ART解释器脱所有一二代壳](https://mp.weixin.qq.com/s/3tjY_03aLeluwXZGgl3ftw)  （[附件](FART/H1/attachment)）
+- [来自高纬的对抗②：魔改XPOSED过框架检测(上)](https://mp.weixin.qq.com/s/c97zoTxRrEeYLvD8YwIUVQ)
+- [来自高纬的对抗③：魔改XPOSED过框架检测(下)](https://mp.weixin.qq.com/s/YAMCrQSi0LFJGNIwB9qHDA)（[附件1](https://t.zsxq.com/eQR3fMf)、[附件2](https://t.zsxq.com/BqFAIEu)）
+- [来自高纬的对抗④：定制安卓内核过反调试](https://mp.weixin.qq.com/s/CC40CwUS6jwNTc_by1zPlA)(附件:链接：https://pan.baidu.com/s/1zAYliYbkagdUUsykww_L4g 提取码：vv5u])
+- [来自高纬的对抗⑤：替换安卓内核并解封Linux命令和环境](https://mp.weixin.qq.com/s/PIiGZKW6oQnOAwlCqvcU0g)（[附件](https://t.zsxq.com/jqNZrrr)）
+
+## 进击的Coder：精品连载
+
+- [安卓 App 逆向课程一之环境配置](https://mp.weixin.qq.com/s/YyDP_Lfk7kxOZf7F5SViLw)
+- [精品连载丨安卓 App 逆向课程之二逆向神器 frida 的介绍](https://mp.weixin.qq.com/s/5LpaRY1O9br1ZnRNA-gH6Q)
+- [精品连载丨安卓 App 逆向课程之三 frida 注入 Okhttp 抓包上篇](https://mp.weixin.qq.com/s/F_UGRoAsfDW4SAa7cXMKrg)
+- [精品连载丨安卓 App 逆向课程之四 frida 注入 Okhttp 抓包中篇](https://mp.weixin.qq.com/s/PICqN6K_LFGHkjyiXkPzUw)
+- [精品连载丨安卓 App 逆向课程之五 frida 注入 Okhttp 抓包下篇](https://mp.weixin.qq.com/s/SBEKXSO6LrFYsO5pOtfxJA)
