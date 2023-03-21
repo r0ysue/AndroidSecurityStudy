@@ -62,3 +62,7 @@
 - [精品连载丨安卓 App 逆向课程之三 frida 注入 Okhttp 抓包上篇](https://mp.weixin.qq.com/s/F_UGRoAsfDW4SAa7cXMKrg)
 - [精品连载丨安卓 App 逆向课程之四 frida 注入 Okhttp 抓包中篇](https://mp.weixin.qq.com/s/PICqN6K_LFGHkjyiXkPzUw)
 - [精品连载丨安卓 App 逆向课程之五 frida 注入 Okhttp 抓包下篇](https://mp.weixin.qq.com/s/SBEKXSO6LrFYsO5pOtfxJA)
+
+##  优秀学员作品：
+
+- [《常见Java层反调试技术之root检测方式总结》](Student/001)
