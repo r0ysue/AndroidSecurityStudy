@@ -1,0 +1,514 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\roysue\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.6.8\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p,html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div{display:inline}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  300px/2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <div class="md-toc">
+<div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#pixel1&#x4EE3;&#x5E73;&#x66FF;&#x4E00;&#x52A0;3&#x624B;&#x673A;&#x5237;&#x5165;kalinethunter&#x89E3;&#x5C01;&#x5B8C;&#x6574;linux&#x547D;&#x4EE4;&#x73AF;&#x5883;" class="md-toc-link">
+            <p>Pixel1&#x4EE3;&#x5E73;&#x66FF;&#xFF1A;&#x4E00;&#x52A0;3&#x624B;&#x673A;&#x5237;&#x5165;KaliNethunter&#x89E3;&#x5C01;&#x5B8C;&#x6574;Linux&#x547D;&#x4EE4;&#x73AF;&#x5883;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#&#x610F;&#x4E49;" class="md-toc-link">
+            <p>&#x610F;&#x4E49;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#intro" class="md-toc-link">
+            <p>Intro</p>
+
+          </a></div><details style="padding:0;;padding-left:0px;" open>
+        <summary class="md-toc-link-wrapper">
+          <a href="#&#x5237;&#x673A;&#x524D;&#x8BBE;&#x7F6E;" class="md-toc-link"><p>&#x5237;&#x673A;&#x524D;&#x8BBE;&#x7F6E;</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;" class="md-toc-link">
+            <p>&#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x5F00;&#x542F;usb&#x8C03;&#x8BD5;&#x548C;oem&#x89E3;&#x9501;&#x8BB8;&#x53EF;" class="md-toc-link">
+            <p>&#x5F00;&#x542F;usb&#x8C03;&#x8BD5;&#x548C;oem&#x89E3;&#x9501;&#x8BB8;&#x53EF;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x89E3;&#x9501;oem" class="md-toc-link">
+            <p>&#x89E3;&#x9501;OEM</p>
+
+          </a></div>
+        </div>
+      </details>
+    <details style="padding:0;;padding-left:0px;" open>
+        <summary class="md-toc-link-wrapper">
+          <a href="#&#x5237;&#x5165;lineage" class="md-toc-link"><p>&#x5237;&#x5165;lineage</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x5237;&#x5165;twrp" class="md-toc-link">
+            <p>&#x5237;&#x5165;twrp</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x6E05;&#x7406;&#x6570;&#x636E;" class="md-toc-link">
+            <p>&#x6E05;&#x7406;&#x6570;&#x636E;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x8F93;&#x5165;&#x9632;&#x62A4;&#x5899;&#x7684;&#x5305;" class="md-toc-link">
+            <p>&#x8F93;&#x5165;&#x9632;&#x62A4;&#x5899;&#x7684;&#x5305;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x5237;&#x5165;lineage&#x7684;&#x5305;" class="md-toc-link">
+            <p>&#x5237;&#x5165;lineage&#x7684;&#x5305;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#&#x5237;&#x5165;magisk" class="md-toc-link">
+            <p>&#x5237;&#x5165;magisk</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#&#x4F7F;&#x7528;magisk&#x5237;&#x5165;nethunter" class="md-toc-link">
+            <p>&#x4F7F;&#x7528;Magisk&#x5237;&#x5165;nethunter</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#nethunter&#x521D;&#x59CB;&#x5316;&#x8BBE;&#x7F6E;" class="md-toc-link">
+            <p>nethunter&#x521D;&#x59CB;&#x5316;&#x8BBE;&#x7F6E;</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#&#x5237;&#x5165;&#x6210;&#x529F;" class="md-toc-link">
+            <p>&#x5237;&#x5165;&#x6210;&#x529F;&#xFF01;</p>
+
+          </a></div>
+</div>
+<h1 class="mume-header" id="pixel1%E4%BB%A3%E5%B9%B3%E6%9B%BF%E4%B8%80%E5%8A%A03%E6%89%8B%E6%9C%BA%E5%88%B7%E5%85%A5kalinethunter%E8%A7%A3%E5%B0%81%E5%AE%8C%E6%95%B4linux%E5%91%BD%E4%BB%A4%E7%8E%AF%E5%A2%83">Pixel1&#x4EE3;&#x5E73;&#x66FF;&#xFF1A;&#x4E00;&#x52A0;3&#x624B;&#x673A;&#x5237;&#x5165;KaliNethunter&#x89E3;&#x5C01;&#x5B8C;&#x6574;Linux&#x547D;&#x4EE4;&#x73AF;&#x5883;</h1>
+
+<h1 class="mume-header" id="%E6%84%8F%E4%B9%89">&#x610F;&#x4E49;</h1>
+
+<p>&#x5927;&#x5BB6;&#x77E5;&#x9053;&#x5728;Linux&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x5BF9;&#x6570;&#x636E;&#x5C01;&#x5305;&#x8FDB;&#x884C;&#x7EDF;&#x8BA1;&#x3001;&#x5B9A;&#x4F4D;&#x3001;&#x53EF;&#x89C6;&#x5316;&#x3001;&#x5206;&#x6790;&#x548C;&#x8F6C;&#x50A8;&#x7B49;&#xFF0C;&#x6709;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x5DE5;&#x5177;&#x548C;&#x8F6F;&#x4EF6;&#x3002;&#x8FD9;&#x4E9B;&#x5DE5;&#x5177;&#x4E3A;&#x6211;&#x4EEC;&#x8FDB;&#x884C;&#x7F51;&#x7EDC;&#x6570;&#x636E;&#x5C01;&#x5305;&#x7684;&#x5206;&#x6790;&#x548C;&#x5904;&#x7406;&#x63D0;&#x4F9B;&#x4E86;&#x65E0;&#x4E0E;&#x4F26;&#x6BD4;&#x7684;&#x652F;&#x6301;&#xFF0C;&#x53EF;&#x4EE5;&#x8BF4;&#x6709;&#x8FD9;&#x4E9B;&#x5DE5;&#x5177;&#x7684;&#x5B58;&#x5728;&#xFF0C;&#x6CA1;&#x6709;&#x6293;&#x4E0D;&#x5230;&#x7684;&#x5305;&#xFF0C;&#x5982;&#x679C;&#x518D;&#x7ED3;&#x5408;hook&#x6280;&#x672F;&#xFF0C;&#x53EF;&#x4EE5;&#x8BF4;&#x6CA1;&#x6709;&#x89E3;&#x4E0D;&#x5F00;&#x7684;&#x534F;&#x8BAE;&#x3002;</p>
+<p>&#x5DE5;&#x5177;&#x867D;&#x597D;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x4EEC;&#x7684;&#x8FD0;&#x884C;&#x90FD;&#x9700;&#x8981;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;Linux&#x73AF;&#x5883;&#xFF0C;&#x6BD4;&#x5982;&#x50CF;jnettop/htop/nethogs&#x7B49;&#x9700;&#x8981;root&#x6743;&#x9650;&#xFF0C;&#x50CF;iwlist/aircrack/HID&#x7B49;&#x9700;&#x8981;&#x5185;&#x6838;&#x9A71;&#x52A8;&#x652F;&#x6301;&#x3001;&#x76D1;&#x542C;&#x6A21;&#x5F0F;&#x7684;&#x6253;&#x5F00;&#x7B49;&#xFF0C;Wireshark/Charles/BP&#x4F1A;&#x9700;&#x8981;&#x684C;&#x9762;&#x73AF;&#x5883;&#x7684;&#x652F;&#x6301;&#xFF0C;&#x5728;GUI&#x4E2D;&#x8FDB;&#x884C;&#x53EF;&#x89C6;&#x5316;&#x5206;&#x6790;&#x3002;</p>
+<p>&#x5177;&#x4F53;&#x7684;&#x5185;&#x5BB9;&#x5728;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x4E2D;&#x8FDB;&#x884C;&#x4E86;&#x8BE6;&#x7EC6;&#x7684;&#x89E3;&#x91CA;&#xFF1A;<a href="https://mp.weixin.qq.com/s/PIiGZKW6oQnOAwlCqvcU0g">&#x300A;&#x6765;&#x81EA;&#x9AD8;&#x7EAC;&#x7684;&#x5BF9;&#x6297;&#xFF1A;&#x66FF;&#x6362;&#x5B89;&#x5353;&#x5185;&#x6838;&#x5E76;&#x89E3;&#x5C01;Linux&#x547D;&#x4EE4;&#x548C;&#x73AF;&#x5883;&#x300B;</a></p>
+<p>&#x968F;&#x7740;&#x65F6;&#x95F4;&#x7684;&#x63A8;&#x79FB;&#xFF0C;Nexus&#x8BBE;&#x5907;&#x9010;&#x6E10;&#x9000;&#x51FA;&#x5386;&#x53F2;&#x821E;&#x53F0;&#xFF0C;&#x800C;Kali Nethunter&#x5374;&#x8FDF;&#x8FDF;&#x4E0D;&#x80FD;&#x652F;&#x6301;&#x5230;Pixel&#x8BBE;&#x5907;&#xFF1B;&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x53EA;&#x80FD;&#x9000;&#x800C;&#x6C42;&#x5176;&#x6B21;&#xFF0C;&#x9009;&#x62E9;&#x4E00;&#x52A0;&#x624B;&#x673A;&#xFF0C;&#x6765;&#x5EF6;&#x7EED;&#x624B;&#x673A;&#x4E0A;&#x5237;&#x5165;Kali Nethunter&#x89E3;&#x5C01;&#x5B8C;&#x6574;Linux&#x73AF;&#x5883;&#x7684;&#x4F20;&#x7EDF;&#x3002;</p>
+<p>&#x672C;&#x7BC7;&#x57FA;&#x4E8E;&#x4E00;&#x52A0;3(t)&#x624B;&#x673A;&#xFF0C;&#x5728;&#x6027;&#x80FD;&#x4E0A;&#x76F8;&#x5F53;&#x4E8E;Pixel&#x4E00;&#x4EE3;&#x624B;&#x673A;&#x3002;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x662F;&#x5B89;&#x5353;10&#x3002;&#x672C;&#x6587;&#x4E2D;&#x7528;&#x5230;&#x7684;&#x9644;&#x4EF6;&#x7B49;&#x4F4D;&#x4E8E;&#x767E;&#x5EA6;&#x76D8;&#x4E2D;&#xFF1A;&#x94FE;&#x63A5;&#xFF1A;<a href="https://pan.baidu.com/s/1c01pB6JIY6a-25P-855dAA">https://pan.baidu.com/s/1c01pB6JIY6a-25P-855dAA</a> &#x63D0;&#x53D6;&#x7801;&#xFF1A;e2gn</p>
+<p>&#x8BE5;&#x7CFB;&#x5217;&#x4E3A;&#x5B66;&#x5458;&#x4F18;&#x79C0;&#x4F5C;&#x54C1;&#x7CFB;&#x5217;&#xFF0C;&#x9644;&#x4EF6;apk&#x3001;&#x4EE3;&#x7801;&#x7B49;&#x4F4D;&#x4E8E;&#x6211;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x81EA;&#x53D6;&#xFF1A;</p>
+<p><a href="20230403https://github.com/r0ysue/AndroidSecurityStudy">https://github.com/r0ysue/AndroidSecurityStudy</a></p>
+<h1 class="mume-header" id="intro">Intro</h1>
+
+<ol>
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x642D;&#x5EFA;nethunter&#x7684;&#x73AF;&#x5883;</li>
+</ol>
+<ul>
+<li>&#x5DE5;&#x6B32;&#x5584;&#x5176;&#x4E8B;,&#x5FC5;&#x5148;&#x5229;&#x5176;&#x5668;.nethunter&#x5F3A;&#x5927;&#x7684;&#x5DE5;&#x5177;&#x652F;&#x6301;,&#x4F7F;&#x5F97;&#x5DE5;&#x4F5C;&#x53D8;&#x5F97;&#x8F7B;&#x677E;</li>
+</ul>
+<ol start="2">
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x4F7F;&#x7528;oneplus3T</li>
+</ol>
+<ul>
+<li>oneplus3T&#x8FD9;&#x90E8;&#x673A;&#x578B;,lineage,nethunter,twrp&#x90FD;&#x6709;&#x5F88;&#x597D;&#x7684;&#x652F;&#x6301;</li>
+<li>oneplus3T&#x73B0;&#x5728;&#x7684;&#x4EF7;&#x683C;&#x5F88;&#x4F4E;</li>
+<li>oneplus3T&#x6027;&#x80FD;&#x8FD8;&#x4E0D;&#x9519;,&#x6BD4;nexus 5x&#x7684;&#x6027;&#x80FD;&#x5F3A;&#x608D;&#x5F88;&#x591A;</li>
+</ul>
+<ol start="3">
+<li>&#x4E3A;&#x4EC0;&#x4E48;&#x5199;&#x8FD9;&#x4E2A;&#x5237;&#x673A;&#x6587;&#x7AE0;<br>
+&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x56E0;&#x4E3A;&#x8FD9;&#x4E2A;nethunter&#x7684;&#x5F3A;&#x5927;&#x548C;oneplus3t&#x7684;&#x6027;&#x4EF7;&#x6BD4;,&#x66F4;&#x56E0;&#x4E3A;&#x662F;&#x5237;&#x673A;&#x603B;&#x662F;&#x51FA;&#x73B0;&#x8FD9;&#x6837;&#x90A3;&#x6837;&#x7684;&#x95EE;&#x9898;,&#x5BFC;&#x81F4;&#x5931;&#x8D25;.&#x7ECF;&#x8FC7;&#x53CD;&#x590D;&#x51E0;&#x5929;&#x6D4B;&#x8BD5;,&#x5F97;&#x51FA;&#x4E86;&#x4E00;&#x79CD;&#x6BD4;&#x8F83;&#x8F7B;&#x677E;&#x7684;&#x65B9;&#x5F0F;.&#x540E;&#x9762;&#x63D0;&#x4F9B;&#x4E86;&#x8FD9;&#x4E2A;&#x5237;&#x673A;&#x8FC7;&#x7A0B;&#x4E2D;&#x7528;&#x5230;&#x7684;&#x6240;&#x6709;&#x7684;&#x5DE5;&#x5177;&#x5305;</li>
+</ol>
+<h1 class="mume-header" id="%E5%88%B7%E6%9C%BA%E5%89%8D%E8%AE%BE%E7%BD%AE">&#x5237;&#x673A;&#x524D;&#x8BBE;&#x7F6E;</h1>
+
+<p>&#x9700;&#x8981;&#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;,bootloader&#x89E3;&#x9501;,usb&#x8C03;&#x8BD5;<br>
+&#x5982;&#x679C;&#x624B;&#x673A;&#x6EE1;&#x8DB3;&#x8FD9;&#x4E9B;&#x6761;&#x4EF6;,&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8FDB;&#x5165;&#x5237;&#x5165;lineage</p>
+<h2 class="mume-header" id="%E5%BC%80%E5%90%AF%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F">&#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;</h2>
+
+<p>&#x7CFB;&#x7EDF;&#x7248;&#x672C;&#x53F7;(&#x70B9;&#x51FB;&#x591A;&#x6B21;),&#x4E00;&#x822C;&#x8FDB;&#x5165;&#x65B9;&#x5F0F;&#x90FD;&#x662F;&#x624B;&#x673A;&#x91CC;&#x9762;,&#x8BBE;&#x7F6E;-&gt;&#x5173;&#x4E8E;&#x624B;&#x673A;-&gt;&#x7248;&#x672C;&#x53F7;<br>
+<img src="202304061.jpg" alt="1"><br>
+<img src="202304062.jpg" alt="2"></p>
+<h2 class="mume-header" id="%E5%BC%80%E5%90%AFusb%E8%B0%83%E8%AF%95%E5%92%8Coem%E8%A7%A3%E9%94%81%E8%AE%B8%E5%8F%AF">&#x5F00;&#x542F;usb&#x8C03;&#x8BD5;&#x548C;oem&#x89E3;&#x9501;&#x8BB8;&#x53EF;</h2>
+
+<ul>
+<li>&#x8BBE;&#x7F6E;-&gt;&#x7CFB;&#x7EDF;-&gt;&#x5F00;&#x53D1;&#x8005;&#x9009;&#x9879;<br>
+<img src="202304063.jpg" alt="3"><br>
+<img src="202304064.jpg" alt="4"></li>
+</ul>
+<h2 class="mume-header" id="%E8%A7%A3%E9%94%81oem">&#x89E3;&#x9501;OEM</h2>
+
+<ol>
+<li>&#x91CD;&#x542F;&#x5230;bootloader</li>
+</ol>
+<ul>
+<li>&#x4F7F;&#x7528;adb&#x547D;&#x4EE4;</li>
+</ul>
+<pre data-role="codeBlock" data-info class="language-"><code> adb reboot bootloader  
+</code></pre><ul>
+<li>&#x624B;&#x673A;&#x5173;&#x673A;,&#x7136;&#x540E;&#x5F00;&#x673A;&#x952E;+&#x624B;&#x673A;&#x97F3;&#x91CF;&#x4E0B;&#x952E;<br>
+<img src="202304065.png" alt="5"><br>
+<img src="202304066.jpg" alt="6"></li>
+</ul>
+<ol>
+<li>&#x89E3;&#x9501;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>fastboot oem unlock
+</code></pre><p><img src="202304067.png" alt="7"><br>
+<img src="202304068.jpg" alt="8"><br>
+&#x624B;&#x673A;&#x51FA;&#x73B0;&#x8FD9;&#x4E2A;&#x754C;&#x9762;&#x4EE5;&#x540E;,&#x9009;&#x62E9;UNLOCK THE BOOTLOADER(&#x97F3;&#x91CF;&#x4E0A;&#x4E0B;&#x952E;&#x53EF;&#x4EE5;&#x5207;&#x6362;&#x9009;&#x9879;,&#x7535;&#x6E90;&#x952E;&#x505A;&#x9009;&#x62E9;)<br>
+&#x7B49;&#x5F85;&#x89E3;&#x9501;&#x540E;&#x81EA;&#x52A8;&#x91CD;&#x542F;<br>
+&#x6CE8;&#x610F;: &#x89E3;&#x9501;&#x91CD;&#x542F;&#x4E4B;&#x540E;,&#x5B8C;&#x6210;&#x57FA;&#x672C;&#x8BBE;&#x7F6E;&#x4E4B;&#x540E;,&#x518D;&#x6B21;&#x542F;&#x52A8;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;&#x548C;usb&#x8C03;&#x8BD5;</p>
+<h1 class="mume-header" id="%E5%88%B7%E5%85%A5lineage">&#x5237;&#x5165;lineage</h1>
+
+<p>nethunter&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;&#x7CFB;&#x7EDF;&#x662F;android10&#x7684;&#x955C;&#x50CF;&#x5305;,&#x9700;&#x8981;&#x8F93;&#x5165;&#x4E00;&#x4E2A;android10&#x7684;&#x5E95;&#x5305;,&#x8FD9;&#x91CC;&#x9009;&#x62E9;lineage&#x7684;&#x7CFB;&#x7EDF;</p>
+<h2 class="mume-header" id="%E5%88%B7%E5%85%A5twrp">&#x5237;&#x5165;twrp</h2>
+
+<ol>
+<li>&#x91CD;&#x542F;&#x624B;&#x673A;,&#x5237;&#x5165;twrp.img</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>adb reboot bootloader
+fastboot flash recovery recovery.img 
+</code></pre><p><img src="202304069.png" alt="9"></p>
+<ol>
+<li>&#x624B;&#x673A;&#x97F3;&#x91CF;&#x4E0A;&#x4E0B;&#x952E;,&#x9009;&#x62E9;recovrey mode&#x8FDB;&#x5165;twrp&#x7684;&#x7CFB;&#x7EDF;<br>
+<img src="2023040611.jpg" alt="11"></li>
+</ol>
+<h2 class="mume-header" id="%E6%B8%85%E7%90%86%E6%95%B0%E6%8D%AE">&#x6E05;&#x7406;&#x6570;&#x636E;</h2>
+
+<ol>
+<li>&#x5728;twrp&#x4E2D;,Wipe-&gt;Format Data-&gt;&#x8F93;&#x5165;&apos;yes&apos;-&gt;&#x6210;&#x529F;&#x4E4B;&#x540E;,back&#x5230;&#x53EF;&#x4EE5;&#x9009;&#x62E9;Advanced Wipe&#x5730;&#x65B9;<br>
+<img src="2023040612.jpg" alt="12"><br>
+<img src="2023040610.jpg" alt="10"></li>
+<li>Advanced Wipe-&gt;&#x52FE;&#x9009;&#x5168;&#x90E8;<br>
+<img src="2023040615.jpg" alt="15"></li>
+</ol>
+<h2 class="mume-header" id="%E8%BE%93%E5%85%A5%E9%98%B2%E6%8A%A4%E5%A2%99%E7%9A%84%E5%8C%85">&#x8F93;&#x5165;&#x9632;&#x62A4;&#x5899;&#x7684;&#x5305;</h2>
+
+<ol>
+<li>Advanced-&gt;ADB Sideload<br>
+<img src="2023040617.jpg" alt="17"></li>
+<li>&#x8F93;&#x5165;&#x547D;&#x4EE4;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>adb sideload oxygenos-9.0.6-bl-km-5.0.8-firmware-3.zip 
+</code></pre><p><img src="2023040640.png" alt="40"><br>
+<img src="2023040641.jpg" alt="41"></p>
+<h2 class="mume-header" id="%E5%88%B7%E5%85%A5lineage%E7%9A%84%E5%8C%85">&#x5237;&#x5165;lineage&#x7684;&#x5305;</h2>
+
+<ol>
+<li>Advanced-&gt;ADB Sideload</li>
+<li>&#x8F93;&#x5165;&#x5982;&#x4E0B;&#x547D;&#x4EE4;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>adb sideload lineage-17.1-20210215-nightly-oneplus3-signed.zip 
+</code></pre><p><img src="2023040642.png" alt="42"><br>
+<img src="2023040643.jpg" alt="43"></p>
+<h2 class="mume-header" id="%E5%88%B7%E5%85%A5magisk">&#x5237;&#x5165;magisk</h2>
+
+<ol>
+<li>Advanced-&gt;ADB Sideload</li>
+<li>&#x8F93;&#x5165;&#x4E0B;&#x9762;&#x547D;&#x4EE4;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>adb sideload app-release.zip
+</code></pre><p><img src="2023040644.png" alt="44"><br>
+<img src="2023040645.jpg" alt="45"><br>
+3. &#x91CD;&#x542F;<br>
+4. &#x5F00;&#x542F;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x5F0F;,usb&#x8C03;&#x8BD5;<br>
+5. &#x4F7F;&#x7528;&#x4E0B;&#x9762;&#x547D;&#x4EE4;&#x5B89;&#x88C5;magisk&#x7684;app</p>
+<pre data-role="codeBlock" data-info class="language-"><code>adb install app-release.apk 
+</code></pre><p><img src="2023040646.png" alt="46"><br>
+<img src="2023040647.jpg" alt="47"><br>
+6. &#x91CD;&#x542F;,&#x5B89;&#x88C5;magisk&#x4E4B;&#x540E;,&#x7B2C;&#x4E00;&#x6B21;&#x9700;&#x8981;&#x91CD;&#x542F;,&#x8BA9;&#x914D;&#x7F6E;&#x751F;&#x6548;<br>
+<img src="2023040648.jpg" alt="48"><br>
+7. magisk&#x5982;&#x4E0A;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x6210;&#x529F;</p>
+<h1 class="mume-header" id="%E4%BD%BF%E7%94%A8magisk%E5%88%B7%E5%85%A5nethunter">&#x4F7F;&#x7528;Magisk&#x5237;&#x5165;nethunter</h1>
+
+<ol>
+<li>&#x4F20;&#x5165;nethunter&#x7684;&#x5305;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>adb push kalihunter.zip /sdcard/Download
+</code></pre><p><img src="2023040628.png" alt="28"><br>
+2. &#x9009;&#x62E9; &#x6A21;&#x5757;-&gt;&#x672C;&#x5730;,&#x9009;&#x62E9;,nethunter&#x7684;&#x5305;,&#x7B49;&#x5F85;&#x7ED3;&#x675F;,&#x91CD;&#x542F;<br>
+<img src="2023040629.jpg" alt="29"></p>
+<h1 class="mume-header" id="nethunter%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%BE%E7%BD%AE">nethunter&#x521D;&#x59CB;&#x5316;&#x8BBE;&#x7F6E;</h1>
+
+<ol>
+<li>&#x91CD;&#x542F;&#x540E;,&#x8FDE;wifi,&#x8F93;&#x5165;&#x547D;&#x4EE4;,&#x8BBE;&#x7F6E;&#x65F6;&#x95F4;</li>
+</ol>
+<pre data-role="codeBlock" data-info class="language-"><code>settings put global captive_portal_http_url https://www.google.cn/generate_204
+settings put global captive_portal_https_url https://www.google.cn/generate_204
+settings put global ntp_server 1.hk.pool.ntp.org
+reboot
+</code></pre><p><img src="2023040630.png" alt="30"></p>
+<ol start="2">
+<li>&#x521D;&#x59CB;&#x5316;,&#x70B9;&#x51FB;Kali Chroot Manager&#x5F00;&#x59CB;&#x521D;&#x59CB;&#x5316;<br>
+<img src="2023040631.jpg" alt="31"><br>
+<img src="2023040632.jpg" alt="32"></li>
+<li>&#x547D;&#x4EE4;&#x7A97;&#x53E3;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;,&#x6210;&#x529F;<br>
+<img src="2023040633.jpg" alt="33"></li>
+</ol>
+<h1 class="mume-header" id="%E5%88%B7%E5%85%A5%E6%88%90%E5%8A%9F">&#x5237;&#x5165;&#x6210;&#x529F;&#xFF01;</h1>
+
+<p>&#x53EF;&#x4EE5;&#x5F00;&#x542F;&#x7684;&#x9006;&#x5411;&#x4E4B;&#x65C5;&#x4E86;&#xFF01;&#x540E;&#x7EED;&#x8FD8;&#x4F1A;&#x66F4;&#x65B0;OnePlus&#x7CFB;&#x5217;&#x7684;Kali Nethunter&#x5237;&#x5165;&#x6559;&#x7A0B;&#xFF0C;&#x656C;&#x8BF7;&#x671F;&#x5F85;&#xFF01; &#x60F3;&#x8981;&#x76F4;&#x63A5;&#x8D2D;&#x4E70;&#x5237;&#x597D;&#x7684;&#x8BBE;&#x5907;&#xFF0C;&#x76F4;&#x63A5;&#x79C1;&#x4FE1;&#x8089;&#x4E1D;&#x5373;&#x53EF;&#xFF0C;vx&#xFF1A;r0ysue &#x3002;&#x5356;&#x8BBE;&#x5907;&#x8FD8;&#x5356;&#x6559;&#x7A0B;&#x5662;&#xFF01;&#x52A9;&#x60A8;&#x5347;&#x804C;&#x52A0;&#x85AA;&#xFF01;</p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>

@@ -35,12 +35,12 @@
 如果手机满足这些条件,可以直接进入刷入lineage
 ## 开启开发者模式
 系统版本号(点击多次),一般进入方式都是手机里面,设置->关于手机->版本号
-![1](202304061.jpg)
-![2](202304062.jpg)
+![1](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304061.jpg)
+![2](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304062.jpg)
 ## 开启usb调试和oem解锁许可
 + 设置->系统->开发者选项
-![3](202304063.jpg)
-![4](202304064.jpg)
+![3](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304063.jpg)
+![4](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304064.jpg)
 ## 解锁OEM
 1. 重启到bootloader
 + 使用adb命令
@@ -48,14 +48,14 @@
  adb reboot bootloader  
 ```
 + 手机关机,然后开机键+手机音量下键
-![5](202304065.png)
-![6](202304066.jpg)
+![5](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304065.png)
+![6](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304066.jpg)
 1. 解锁
 ```
 fastboot oem unlock
 ```
-![7](202304067.png)
-![8](202304068.jpg)
+![7](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304067.png)
+![8](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304068.jpg)
 手机出现这个界面以后,选择UNLOCK THE BOOTLOADER(音量上下键可以切换选项,电源键做选择)
 等待解锁后自动重启
 注意: 解锁重启之后,完成基本设置之后,再次启动开发者模式和usb调试
@@ -67,25 +67,25 @@ nethunter官方提供的系统是android10的镜像包,需要输入一个android
 adb reboot bootloader
 fastboot flash recovery recovery.img 
 ```
-![9](202304069.png)
+![9](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/202304069.png)
 1. 手机音量上下键,选择recovrey mode进入twrp的系统
-![11](2023040611.jpg)
+![11](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040611.jpg)
 ## 清理数据
 1. 在twrp中,Wipe->Format Data->输入'yes'->成功之后,back到可以选择Advanced Wipe地方
-![12](2023040612.jpg)
-![10](2023040610.jpg)
+![12](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040612.jpg)
+![10](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040610.jpg)
 1. Advanced Wipe->勾选全部
-![15](2023040615.jpg)
+![15](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040615.jpg)
 
 ## 输入防护墙的包
 1. Advanced->ADB Sideload
-![17](2023040617.jpg)
+![17](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040617.jpg)
 2. 输入命令
 ```
 adb sideload oxygenos-9.0.6-bl-km-5.0.8-firmware-3.zip 
 ```
-![40](2023040640.png)
-![41](2023040641.jpg)
+![40](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040640.png)
+![41](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040641.jpg)
 
 ## 刷入lineage的包
 1. Advanced->ADB Sideload
@@ -93,8 +93,8 @@ adb sideload oxygenos-9.0.6-bl-km-5.0.8-firmware-3.zip
 ```
 adb sideload lineage-17.1-20210215-nightly-oneplus3-signed.zip 
 ```
-![42](2023040642.png)
-![43](2023040643.jpg)
+![42](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040642.png)
+![43](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040643.jpg)
 
 ## 刷入magisk
 1. Advanced->ADB Sideload
@@ -102,18 +102,18 @@ adb sideload lineage-17.1-20210215-nightly-oneplus3-signed.zip
 ```
 adb sideload app-release.zip
 ```
-![44](2023040644.png)
-![45](2023040645.jpg)
+![44](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040644.png)
+![45](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040645.jpg)
 3. 重启
 4. 开启开发者模式,usb调试
 5. 使用下面命令安装magisk的app
 ```
 adb install app-release.apk 
 ```
-![46](2023040646.png)
-![47](2023040647.jpg)
+![46](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040646.png)
+![47](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040647.jpg)
 6. 重启,安装magisk之后,第一次需要重启,让配置生效
-![48](2023040648.jpg)
+![48](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040648.jpg)
 7. magisk如上已经安装成功
 
 # 使用Magisk刷入nethunter
@@ -122,9 +122,9 @@ adb install app-release.apk
 ```
 adb push kalihunter.zip /sdcard/Download
 ```
-![28](2023040628.png)
+![28](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040628.png)
 2. 选择 模块->本地,选择,nethunter的包,等待结束,重启
-![29](2023040629.jpg)
+![29](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040629.jpg)
 
 # nethunter初始化设置
 1. 重启后,连wifi,输入命令,设置时间
@@ -134,13 +134,13 @@ settings put global captive_portal_https_url https://www.google.cn/generate_204
 settings put global ntp_server 1.hk.pool.ntp.org
 reboot
 ```
-![30](2023040630.png)
+![30](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040630.png)
 
 2. 初始化,点击Kali Chroot Manager开始初始化
-![31](2023040631.jpg)
-![32](2023040632.jpg)
+![31](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040631.jpg)
+![32](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040632.jpg)
 3. 命令窗口可以使用,成功
-![33](2023040633.jpg)
+![33](http://www.dtasecurity.cn:20080/IMAGE/OFFLINE/2023040633.jpg)
 
 # 刷入成功！
 
