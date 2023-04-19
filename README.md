@@ -67,3 +67,5 @@
 
 - [《常见Java层反调试技术之root检测方式总结》](Student/001)
 - [《挑战不用macOS逆向iOS APP》之两百元成本的iOS逆向环境搭建](Student/002)
+- [《Pixel1代平替：一加3手机刷入KaliNethunter解封完整Linux命令环境》](Student/003)
+- [《Pixel4平替：OnePlus7刷NetHunter(android10) 指南》](Student/004)
