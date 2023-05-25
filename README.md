@@ -70,3 +70,4 @@
 - [《Pixel1代平替：一加3手机刷入KaliNethunter解封完整Linux命令环境》](Student/003)
 - [《Pixel4平替：OnePlus7刷NetHunter(android10) 指南》](Student/004)
 - [《挑战不用macOS逆向iOS APP》之ObjC语法、iOS应用开发、及Objection自动化hook入门](Student/005)
+- [《Frida前置知识:iOS/ObjC语法进阶及其ARM汇编实现》](Student/006)
