@@ -75,7 +75,7 @@ Objective-C语言是一门动态语言，它将很多静态语言在编译和链
 
 ## (2)引用关系
 
-![1](/image/1.png)
+![1](image/1.png)
 
 (3)类的底层实现:
 
@@ -113,13 +113,13 @@ xcrun -sdk iphoneos clang -rewrite-objc -F UIKit -fobjc-arc -arch arm64 ClassAnd
 
 搜索我们写的MyClass分别发现其声明及实现
 
-![2](/image/2.png)
+![2](image/2.png)
 
-![3](/image/3.png)
+![3](image/3.png)
 
 发现其实现中存在NSObject_IMPL属性，进行搜索
 
-![4](/image/4.png)
+![4](image/4.png)
 
 可以看到内部其实是一个Class指针，查看其声明发现其是objc_class结构体。
 
@@ -133,39 +133,39 @@ xcrun -sdk iphoneos clang -rewrite-objc -F UIKit -fobjc-arc -arch arm64 ClassAnd
 
 接着我们将代码拉到最后，可以看到定义的类写到了以下section中
 
-![7](/image/7.png)
+![7](image/7.png)
 
 并在`OBJC_CLASS_SETUP_$_MyClass`方法中对其进行了初始化，这里可以看出，进行初始化时其实是分为元类及类的
 
-![8](/image/8.png)
+![8](image/8.png)
 
 检索`OBJC_CLASS_$_MyClass`查看其类型发现是`_class_t`结构体
 
-![9](/image/9.png)
+![9](image/9.png)
 
 结构体定义如下
 
-![10](/image/10.png)
+![10](image/10.png)
 
 可以看到结构体内属性存在一个`_class_ro_t` 结构体，检索发现其存放及定义内容
 
-![11](/image/11.png)
+![11](image/11.png)
 
-![12](/image/12.png)
+![12](image/12.png)
 
 然后分别检索`OBJC_METACLASS_$_MyClass`以及`OBJC_METACLASS_$_MyClass`可以看到以下实现
 
-![14](/image/14.png)
+![14](image/14.png)
 
 这里的两个RO属性都是readonly只读的在编辑器中确定，继续检索这两个变量查看定义
 
-![15](/image/15.png)
+![15](image/15.png)
 
 这里已经可以看到方法属性对象方法及类方法的区别，分别保存在元类及类中
 
 继续检索`OBJC_$_INSTANCE_METHODS_MyClass` 及`OBJC_$_CLASS_METHODS_MyClass`看类方法及对象方法
 
-![16](/image/16.png)
+![16](image/16.png)
 
 可以看到我们自己写的对象方法myMethod及类方法myClassMethod这里可以知道 `_class_t`是类结构，内部包含有方法及属性结构体`_class_ro_t`属性，在实际的实现过程中对一个类分别实现了基于`_class_t`的`OBJC_METACLASS_$_MyClass`以及`OBJC_METACLASS_$_MyClass`分别为类及元类，二者内部又都有基于`_class_ro_t` 结构体的实现`OBJC_$_INSTANCE_METHODS_MyClass` 及`OBJC_$_CLASS_METHODS_MyClass`存放方法及属性。
 
@@ -197,11 +197,11 @@ isa指向:
 
 ## (1)运行时类结构:
 
-![48](/image/48.png)
+![48](image/48.png)
 
 在上边我们已经分析了OC中类的结构，但是其中的class_ro_t却是一个只读结构体，为了实现OC语言的动态性，因此在运行时给类加了一个中间层，下面我们借用AloneMonkey巨佬书的书中的[Demo案例](https://github.com/AloneMonkey/iOSREBook/tree/master/chapter-4/4.3%20%E7%B1%BB%E4%B8%8E%E6%96%B9%E6%B3%95)查看运行时类的结构
 
-![47](/image/47.png)
+![47](image/47.png)
 
 可以看到类结构中多了一部分名为classReadWrite的结构，这就是增加的可读可写的中间层，原本只读的class_ro_t结构变成了可读可写的class_rw_t的一部分，正是利用这个中间层，实现OC语言的动态性，可以在运行时增加类方法及属性。
 
@@ -215,7 +215,7 @@ isa指向:
 
 SEL又叫选择器，是表示一个方法的`selector`的指针，其定义如下：
 
-![17](/image/17.png)
+![17](image/17.png)
 
 Objective-C在编译时，会依据每一个方法的名字、参数序列，生成一个唯一的整型标识(`Int`类型的地址)，这个标识就是`SEL`，两个类之间，不管它们是父类与子类的关系，还是之间没有这种关系，只要方法名相同，那么方法的SEL就是一样的。每一个方法都对应着一个`SEL`。所以在Objective-C同一个类(及类的继承体系)中，不能存在2个同名的方法，即使参数类型不同也不行。相同的方法只能对应一个`SEL`。这也就导致Objective-C在处理相同方法名且参数个数相同但类型不同的方法方面的能力很差。
 
@@ -223,7 +223,7 @@ Objective-C在编译时，会依据每一个方法的名字、参数序列，生
 
 `IMP`实际上是一个函数指针，指向方法实现的首地址，其定义在Runtime 中如下
 
-![18](/image/18.png)
+![18](image/18.png)
 
 这个函数使用当前`CPU`架构实现的标准的C调用约定。第一个参数是指向`self`的指针(如果是实例方法，则是类实例的内存地址；如果是类方法，则是指向元类的指针)，第二个参数是方法选择器(`selector`)，接下来是方法的实际参数列表。
 
@@ -231,11 +231,11 @@ Objective-C在编译时，会依据每一个方法的名字、参数序列，生
 
 在代码中检索发现_objc_method 定义内含方法名及地址
 
-![19](/image/19.png)
+![19](image/19.png)
 
 再结合我们上边查看过的方法列表
 
-![16](/image/16.png)
+![16](image/16.png)
 
 到这里我们大致了解了方法的存储方式，那实际的方法调用，消息机制是如何实现的呢？
 
@@ -243,7 +243,7 @@ Objective-C在编译时，会依据每一个方法的名字、参数序列，生
 
 直接查看我们编译的代码检索main 函数查看其中方法调用
 
-![20](/image/20.png)
+![20](image/20.png)
 
 这里可以看到，实际上OC中的方法调用会转化为消息函数objc_msgSend的调用。这个函数将消息接收者和方法名作为其基础参数，如以下所示：
 
@@ -261,13 +261,13 @@ objc_msgSend确定调用方法是进行一个动态查找，具体过程如下:
 
 以上四步可以归纳为如下图所示
 
-![21](/image/21.png)
+![21](image/21.png)
 
 当以上方法都查询不到调用方法时进入消息转发机制，消息转发分为三步:动态方法解析，备用接收者，完整转发
 
 5.动态方法解析(其实就是动态换个方法selector)
 
-![24](/image/24.png)
+![24](image/24.png)
 
 动态添加类有什么好处？当一个类中的方法非常多且有些方法不常用的时候如果直接写了方法,那么这些方法会直接加载到内存,于是内存就很大了,所以我们使用runtime的动态添加方法就不会出现这个问题,只有在运行时才会添加到内存,使用的是class_addMethod方法，具体代码如下:
 
@@ -319,7 +319,7 @@ int main(int argc, const char * argv[]) {
 
 从代码中可以看到Person类中是没有test方法的，但是我们仍然可以调用，这是因为OC的消息转发机制在类及父类中均未找到方法是会进行动态方法解析，会自动调用类的`resolveInstanceMethod`:(或resolveClassMethod:)方法进行动态查找,所以我们可以在resolveInstanceMethod:方法内部使用class_addMethod动态的添加方法实现。
 
-![22](/image/22.png)
+![22](image/22.png)
 
 方法参数简单介绍:
 ```
@@ -333,7 +333,7 @@ class_addMethod(Class _Nullable cls, SEL _Nonnull name, IMP _Nonnull imp, const 
 
 6.备用接收者(其实就是换个执行对象)
 
-![25](/image/25.png)
+![25](image/25.png)
 
 ```
 #import <Foundation/Foundation.h>
@@ -403,11 +403,11 @@ int main(int argc, const char * argv[]) {
 
 这里我们在Person类中对drive方法只声明不实现，然后写forwardingTargetForSelector方法实现对象的转换，调用有drive方法的Car类，这就是OC消息转发机制中的备用接收者。
 
-![23](/image/23.png)
+![23](image/23.png)
 
 7.完整转发(我个人理解其实就是在这一步自己决定执行对象和执行方法)
 
-![26](/image/26.png)
+![26](image/26.png)
 
 写一个`- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector`方法只要他返回一个方法签名就会调用你写的另一个函数`- (void)forwardInvocation:(NSInvocation *)anInvocation`，然后你可以自己在这个函数内生成对象，使用这个对象去调用你的这个方法签名代码如下:
 ```
@@ -468,13 +468,13 @@ int main(int argc, const char * argv[]) {
 @end
 ```
 
-![28](/image/28.png)
+![28](image/28.png)
 
 总结：
 
 OC中的对象方法调用都是采用消息发送，而所谓消息发送其实是SEL-IMP的查找过程，当我们在类中进行前四步都没找到，那就要进行消息转发，在消息转发中OC提供了三条补救措施，分别是动态方法解析，备用接收者，完整转发。完整流程如下图：
 
-![27](/image/27.png)
+![27](image/27.png)
 
 # 3.ObjC runtime的"反射"->KVC
 
@@ -534,13 +534,13 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
- ![60](/image/60.png)
+ ![60](image/60.png)
 
 ## (3)原理概述
 
 设置值:
 
-![50](/image/50.png)
+![50](image/50.png)
 
 查看文档可以看出设置值分为三步
 
@@ -554,25 +554,25 @@ int main(int argc, const char * argv[]) {
 
 取值调用
 
-![57](/image/57.png)
+![57](image/57.png)
 
 ①先看对象内函数，用函数返回值充当值，如果没有就为null
 
-![51](/image/51.png)
+![51](image/51.png)
 
-![54](/image/54.png)
+![54](image/54.png)
 
 ②第二步和第三步是关于数组和集合的
 
-![58](/image/58.png)
+![58](image/58.png)
 
-![52](/image/52.png)
+![52](image/52.png)
 
 ④同样会进行函数检查，如果函数返回yes 也会从这些<u>**成员变量**</u>中找值
 
-![53](/image/53.png)
+![53](image/53.png)
 
-![55](/image/55.png)
+![55](image/55.png)
 
 # 4.ObjC使用AssociatedObject动态为对象添加属性
 
@@ -708,7 +708,7 @@ static void *kExampleDoubleKey;
 @end
 ```
 
-![61](/image/61.png)
+![61](image/61.png)
 
 
 
@@ -720,7 +720,7 @@ static void *kExampleDoubleKey;
 
 我们在前面了解类结构的时候已经知道了方法对象是由SEL与IMP组成 SEL为方法名称IMP则是方法的具体实现，在OC语言中，Runtime提供了修改IMP的方法和交换两个IMP实现的方法。通过交换两个selector的实现，可以达到在调用A方法时实际调用了B方法，在B方法中可以继续调用A方法的效果，通常把这中操作称为Method Swizzling.
 
-![59](/image/59.png)
+![59](image/59.png)
 
 ## (2)简单使用
 
@@ -774,7 +774,7 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
-![60](/image/60.png)
+![60](image/60.png)
 
 可以看到方法交换后调用test1方法，实际执行函数是test2。
 
@@ -805,7 +805,7 @@ R0~R30是31个通用寄存器，每个寄存器又有两种访问方式
 
 两种访问方式对应关系为Wn表示Xn的低32位，具体如下图所示：
 
-![35](/image/35.png)
+![35](image/35.png)
 
 通用寄存器X30又用于程序调用的的link register.是一个特殊的寄存器，用于保存函数调用完成时的返回地址。
 
@@ -821,7 +821,7 @@ V0~V31:主要用于浮点数运算，但我们暂时可能也用不到，这里�
 
 AArch64通过PSTATE的标志位来保存处理器状态，PSTATE也不是寄存器是进程状态信息的抽象，处理器执行指令时可以读取与设置这些标志位，以这些标志位为依据。以下为PSTATE可以在EL0级别访问的常见标志位
 
-![36](/image/36.png)
+![36](image/36.png)
 
 
 
@@ -835,23 +835,23 @@ ARM64相关指令很多我们可以去 [官网](https://developer.arm.com/docume
 
 (1)算术指令:
 
-![29](/image/29.png)
+![29](image/29.png)
 
 (2)传输指令:
 
-![30](/image/30.png)
+![30](image/30.png)
 
 (3)逻辑指令:
 
-![31](/image/31.png)
+![31](image/31.png)
 
 (4)地址指令:
 
-![32](/image/32.png)
+![32](image/32.png)
 
 (5)移位指令:
 
-![33](/image/33.png)
+![33](image/33.png)
 
 # 8.栈和方法在ARM64指令集上的实现细节
 
@@ -868,7 +868,7 @@ ARM64相关指令很多我们可以去 [官网](https://developer.arm.com/docume
 
 ARM的堆栈具有后进先出和满递减的特点，如下图所示，将其想象为一个函数栈，有如下特点
 
-![37](/image/37.png)
+![37](image/37.png)
 
 - 栈中元素按ABCD顺序入栈，按DCBA顺序出栈。
 - 栈是向低地址方向生长的
@@ -896,7 +896,7 @@ FP寄存器:指向栈帧底部，对应寄存器x29
 - 寄存器存储区(saved registers area):被调用函数(callee)返回需要恢复的寄存器内容
 - 局部存储区(local storage area):用于存放被调用函数(callee)的局部变量
 
-![38](/image/38.png)
+![38](image/38.png)
 
 # 9.函数调用/参数传递/入栈出栈完整流程
 
@@ -918,19 +918,19 @@ dfuc addr查看汇编指令
 info -f main  查看函数地址及信息
 ```
 
-![39](/image/39.png)
+![39](image/39.png)
 
 ```
 dfuc 查看该地址函数对应汇编代码
 ```
 
-![40](/image/40.png)
+![40](image/40.png)
 
 从上述汇编指令可以看到add1函数的调用的参数的传递，add1方法调用共需11个参数，其中前八个参数都是先mov保存到了w0-w7寄存器中然后读取到栈中，而后三个参数则直接使用w8作为中转直接放入栈中，说明函数调用时是用x0-x7传递参数的，但是参数过多时超出个数就直接存放到栈中了
 
 同样的方式查看一个简单函数add2的汇编指令
 
-![40](/image/40.png)
+![40](image/40.png)
 
 通过分析可以发现方法的调用会开辟新的栈帧空间并对原来栈指针进行保存，方便执行完毕返回原样，现场保存完毕后就是参数的传递及执行完后栈帧空间销毁，跳回原样，具体过程如下:
 
@@ -954,7 +954,7 @@ dfuc 查看该地址函数对应汇编代码
 
 我们在上边已经了解了OC语言中方法调用时利用消息机制将其转化为objc_msgSend方法的调用该方法调用格式为objc_msgSend(receiver, selector, arg1, arg2, ...)，接下来我们看一看汇编中的实现
 
-![41](/image/41.png)
+![41](image/41.png)
 
 调试CrackMe，当代码执行到函数调用地址时，我们打印x0，x1寄存器，可以发现x0寄存器存放的是类名，x1寄存器存放方法名，其他参数存储在x2-x7或堆栈中。
 
@@ -964,21 +964,21 @@ dfuc 查看该地址函数对应汇编代码
 
 先看案例代码如下
 
-![43](/image/43.png)
+![43](image/43.png)
 
 类方法名下断点
 
-![34](/image/34.png)
+![34](image/34.png)
 
 进行调试，发现isEqualToString方法
 
-![44](/image/44.png)
+![44](image/44.png)
 
 继续调试发现theTextField对象，但是其实可以发现，对于这种业务代码，牵扯到库函数的汇编指令会变得格外多，需要分析地方，并不是一个简单的方式，对于初学者来说并不友好，因此这里推荐IDA F5查看伪代码，或者学习之后会更新的frida调试更为方便一些。
 
-![45](/image/45.png)
+![45](image/45.png)
 
-![46](/image/46.png)
+![46](image/46.png)
 
 # 总结
 
