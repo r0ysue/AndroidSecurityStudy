@@ -15,7 +15,7 @@
 |工具|更新|
 |:-:|:-|
 |Fart|- [《Fart8终极版》](https://aistk.xet.tech/s/1mMFrK)：仅Nexus5x、Pixel1(XL)支持刷入<br/>- [《Fart12脱壳王》](https://alq.xet.tech/s/1hGLBF)：1. Fart10升级到Fart12，脱一二代壳依旧so easy ！ 2. 无root，及对抗所有大厂的检测指纹 3. (todo)直接用的内核模块syscall hook，无视eBPF的高版本限制 4. (todo)内置Frida过检测方案|
-|r0env|- [介绍文章：r0env：打造年轻人的第一套安卓逆向环境！](https://mp.weixin.qq.com/s/gBdcaAx8EInRXPUGeJ5ljQ)<br/>- [r0env之两小时完整使用视频](https://www.bilibili.com/video/BV1qQ4y1R7wW)<br/>- [r0env2011](https://t.zsxq.com/10LsaUoNU)（很多人跟我要r0env2021的分享，因为里面带DDMS、hyperpwn等等）<br/>- [r0env2022](https://appli0n8byd8759.h5.xiaoeknow.com)（店铺首页轮播图第五张，打不开加肉丝微信朋友圈背景截图即是）<br/>- todo：M芯片版r0env...现在不做主要因为还不成熟|
+|r0env|- [介绍文章：r0env：打造年轻人的第一套安卓逆向环境！](https://mp.weixin.qq.com/s/gBdcaAx8EInRXPUGeJ5ljQ)<br/>- [r0env之两小时完整使用视频](https://www.bilibili.com/video/BV1qQ4y1R7wW)<br/>- [r0env2011](https://t.zsxq.com/10LsaUoNU)（很多人跟我要r0env2021的分享，因为里面带DDMS、hyperpwn等等）<br/>- [r0env2022](https://appli0n8byd8759.h5.xiaoeknow.com)（店铺首页轮播图第五张）<br/>- todo：M芯片版r0env...现在不做主要因为还不成熟|
 |Frida|- [《安卓Frida逆向与抓包实战》签名版](https://aistk.xet.tech/s/3DLQvC)<br/>- [《Frida逆向与协议分析》签名版](https://aistk.xet.tech/s/14e51G)<br/>- [todo：《安卓Frida应用SO逆向分析实战》签名版预售](https://aistk.xet.tech/s/2fdcLP)|
 |KernelSU|- [Pixel3](https://t.zsxq.com/10boFCXni)<br/>- [Pixel4](https://t.zsxq.com/10QjuMgHG)<br/>- [Pixel4上的安卓13与KernelSU证书导入与抓包全套验证ok](https://t.zsxq.com/10OHT2S48)、[视频版](https://www.bilibili.com/video/BV1M8411Z7rC)<br/>- [小米8：也一起解决了小米机器自编译boot后导致wifi无法使用的问题](https://t.zsxq.com/10Tjnbwz7)<br/>- [Pixel5](https://t.zsxq.com/10V5Ah2yK)<br/>- [一加7](https://t.zsxq.com/101F2paxn)|
 |云手机|- [rock5b](https://t.zsxq.com/10BP2JODa)、[一开多安卓云手机 原生支持frida hook so](https://www.bilibili.com/video/BV1XY4y1m7NZ)<br/>- [orangepi5：几百块的云手机套装](https://t.zsxq.com/107aZE2fL)|
