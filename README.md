@@ -8,6 +8,15 @@
 
 ---
 
+# 工具相关UPDATE
+
+|工具|更新|
+|:-:|:-|
+|r0env|- [介绍文章：r0env：打造年轻人的第一套安卓逆向环境！](https://mp.weixin.qq.com/s/gBdcaAx8EInRXPUGeJ5ljQ)<br/>- [r0env之两小时完整使用视频](https://www.bilibili.com/video/BV1qQ4y1R7wW)<br/>- [r0env2011](https://t.zsxq.com/10LsaUoNU)（很多人跟我要r0env2021的分享，因为里面带DDMS、hyperpwn等等）<br/>- [r0env2022](https://appli0n8byd8759.h5.xiaoeknow.com)（店铺首页轮播图第五张，打不开加肉丝微信朋友圈背景截图即是）<br/>- todo：M芯片版r0env...现在不做主要因为还不成熟|
+|KernelSU||
+
+---
+
 # 《FRIDA系列文章》
 
 ## A.环境准备和入门篇
