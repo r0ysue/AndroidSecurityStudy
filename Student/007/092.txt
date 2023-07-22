@@ -1,0 +1,2428 @@
+hello world!r0ysue! ObjC =>  true
+{"name":"-[NSTaggedPointerString isEqualToString:]","address":"0x18045a8d0"}
+{"name":"-[__NSCFLocalizedAttributedString isEqualToString:]","address":"0x1818adf70"}
+{"name":"-[__NSCFString isEqualToString:]","address":"0x1804443b8"}
+{"name":"-[__NSLocalizedString isEqualToString:]","address":"0x181845118"}
+{"name":"-[NSSimpleCString isEqualToString:]","address":"0x18183f718"}
+{"name":"-[NSConstantString isEqualToString:]","address":"0x18179e538"}
+{"name":"-[NSString isEqualToString:]","address":"0x1816ee4b4"}
+{"name":"-[NSPathStore2 isEqualToString:]","address":"0x1816ee8a0"}
+{"name":"-[_PFEncodedString isEqualToString:]","address":"0x1863ca2c8"}
+{"name":"-[_PFResultASCIIString isEqualToString:]","address":"0x1863ca624"}
+{"name":"-[_PFResultUniString isEqualToString:]","address":"0x1863ca8d4"}
+{"name":"-[_UILabelContent isEqualToString:]","address":"0x18322be18"}
+{"name":"-[_UILabelStringContent isEqualToString:]","address":"0x18322dd6c"}
+{"name":"-[_UILabelAttributedStringContent isEqualToString:]","address":"0x18322eac0"}
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  Verify
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  Verify
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  aaaabbbb
+need change
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  OK
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIKeyInputEscape
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIWindowSceneSessionRoleApplication
+ret=> 0x0
+receiver is =>  NSCheapMutableString   =>  /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/UIKitCore.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/UIKitCore.framework
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UITextSelectionViewCaretBlinkAnimation
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIExtendedSRGBColorSpace
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocapitalization
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocorrection
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocorrection
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.keyboard
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  QWERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AZERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  QWERTZ
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.keyboard
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  QWERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AZERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  QWERTZ
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.keyboard
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  QWERTY
+ret=> 0x0
+receiver is =>  __NSCFString   =>  '&`’
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  AZERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  QWERTZ
+ret=> 0x0
+receiver is =>  __NSCFString   =>  @#$%^*_([]\|
+ret=> 0x1
+receiver is =>  __NSCFString   =>  @#$%^*_([]\|
+ret=> 0x0
+receiver is =>  __NSCFString   =>  ,.;:?!)]}/-'’
+ret=> 0x1
+receiver is =>  __NSCFString   =>  r0ysue.level
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  position
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x1
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIWindowSceneSessionRoleApplication
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>   
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFString   =>  r0ysue.level
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>   
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  NSCheapMutableString   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  platformContentLight
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceAmount
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceAmount
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceAmount
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceAmount
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurRadius
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  averageColorEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  saturation
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  brightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  zoom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  blurAtEnd
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  default
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  insecure
+ret=> 0x1
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x2820f0800 len=2 OK attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105105300> font-family: \".SFUI-Regular\"; font-weight: normal; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 4, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x282002500 len=16 Congratulations! attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105105300> font-family: \".SFUI-Regular\"; font-weight: normal; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 1, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0.4, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x2820034e0 len=22 You found the secret!! attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105105300> font-family: \".SFUI-Regular\"; font-weight: normal; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 1, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0.4, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x2820f1dc0 len=2 OK attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105105300> font-family: \".SFUI-Regular\"; font-weight: normal; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 1, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x282003b20 len=2 OK attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105147270> font-family: \"UICTFontTextStyleShortHeadline\"; font-weight: bold; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 1, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  _UILabelStringContent   =>  <_UILabelStringContent:0x282003b40 len=2 OK attr={
+    NSColor = "<UIDynamicSystemColor: 0x28347d1c0; name = labelColor>";
+    NSFont = "<UICTFont: 0x105147270> font-family: \"UICTFontTextStyleShortHeadline\"; font-weight: bold; font-style: normal; font-size: 17.00pt";
+    NSParagraphStyle = "Alignment 1, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 4, Tabs (\n    28L,\n    56L,\n    84L,\n    112L,\n    140L,\n    168L,\n    196L,\n    224L,\n    252L,\n    280L,\n    308L,\n    336L\n), DefaultTabInterval 0, Blocks (null), Lists (null), BaseWritingDirection -1, HyphenationFactor 0.4, TighteningForTruncation NO, HeaderLevel 0 LineBreakStrategy 65535";
+    NSShadow = "NSShadow {0, -1} color = {(null)}";
+}>
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _systemBlueColor2
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIWindowSceneSessionRoleApplication
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  Verify
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  Verify
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  default
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  default
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFString   =>  r0ysue.level
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsExpanded
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  .GlobalPreferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x1
+receiver is =>  __NSCFString   =>  zh-Hans-US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  zh-Hans-US
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  .GlobalPreferences
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  .GlobalPreferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  Pinyin
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  zh
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  zh
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AppleKeyboardsIncludeIntl
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  .GlobalPreferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  UILabel
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  UILabel
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _UIVisualEffectSubview
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _UIVisualEffectSubview
+ret=> 0x0
+receiver is =>  __NSCFString   =>  UIVisualEffectView
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIViewController
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIResponder
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _UIAlertControllerShimPresenterWindow
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFString   =>  UIAlertControllerStackManager
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocorrection
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardAutocorrection
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardCheckSpelling
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  SmartQuotesEnabled
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  en_US
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  en-US
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  ShowExtraLayouts
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.keyboard
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  QWERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  AZERTY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  QWERTZ
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFString   =>  en_US@sw=QWERTY;hw=Automatic
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  color
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  color
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  color
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorMatrix
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  KeyboardPrediction
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.Preferences
+ret=> 0x0
+receiver is =>  __NSCFString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  +
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  -
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>   
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>   
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>   
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Post
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UICTContentSizeCategoryL
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  UILabel
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _UIAlertControllerActionView
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Top
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIScrollView-contentOffsetLayoutGuide
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  com.apple.frontboard.workspace-service
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  platformContentLight
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  default
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  backdropScale
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  luminanceCurveMap
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorSaturate
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  colorBrightness
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  gaussianBlur
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  platformContentLight
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  platformContentLight
+ret=> 0x0
+receiver is =>  NSPathStore2   =>  /System/Library/PrivateFrameworks/CoreMaterial.framework
+ret=> 0x1
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x0
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x0
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFString   =>  _UIVisualEffectSubview
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x0
+receiver is =>  __NSCFString   =>  UIVisualEffectView
+ret=> 0x0
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Top
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterX
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  CenterY
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Ambiguity Suppression
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Bottom
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Leading
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  Trailing
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  Top
+ret=> 0x1
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFString   =>  UIVisualEffectView
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _UIVisualEffectSubview
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  UILabel
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  UILabel
+ret=> 0x0
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  vibrantColorMatrix
+ret=> 0x1
+receiver is =>  __NSCFString   =>  _UIVisualEffectSubview
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  non-zero
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  easeInEaseOut
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  easeInEaseOut
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  non-zero
+ret=> 0x0
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  linear
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  non-zero
+ret=> 0x0
+receiver is =>  __NSCFString   =>  _systemBlueColor2
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  continuous
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  removed
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0
+receiver is =>  __NSCFConstantString   =>  UIPacingAnimationForAnimatorsKey
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  UIPacingAnimationForAnimatorsKey
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  transform
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x1
+receiver is =>  NSTaggedPointerString   =>  opacity
+ret=> 0x1
+receiver is =>  __NSCFConstantString   =>  circular
+ret=> 0x0

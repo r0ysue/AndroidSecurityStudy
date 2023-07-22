@@ -81,7 +81,7 @@ PS：[以上手机、硬件、图书等下单地址（卖手机处点击查看�
 - [精品连载丨安卓 App 逆向课程之四 frida 注入 Okhttp 抓包中篇](https://mp.weixin.qq.com/s/PICqN6K_LFGHkjyiXkPzUw)
 - [精品连载丨安卓 App 逆向课程之五 frida 注入 Okhttp 抓包下篇](https://mp.weixin.qq.com/s/SBEKXSO6LrFYsO5pOtfxJA)
 
-##  优秀学员作品：
+##  各种合集：
 
 - [《常见Java层反调试技术之root检测方式总结》](Student/001)
 - [《挑战不用macOS逆向iOS APP》之两百元成本的iOS逆向环境搭建](Student/002)
@@ -89,3 +89,4 @@ PS：[以上手机、硬件、图书等下单地址（卖手机处点击查看�
 - [《Pixel4平替：OnePlus7刷NetHunter(android10) 指南》](Student/004)
 - [《挑战不用macOS逆向iOS APP》之ObjC语法、iOS应用开发、及Objection自动化hook入门](Student/005)
 - [《Frida前置知识:iOS/ObjC语法进阶及其ARM汇编实现》](Student/006)
+- [《Frida hook/invoke iOS以及内存搜刮和黑盒调用》](Student/007)
