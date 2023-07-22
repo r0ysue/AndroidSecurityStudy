@@ -208,7 +208,7 @@ const watchMethod = (selector: string, job: IJob, dargs: boolean, dbt: boolean,
 
 首先去官网查看该api的介绍
 
-![6](./6.png)
+![6](pic/6.png)
 
 可以看到该api支持module模块及objc并且返回值为包含api名称及地址的对象数组，下边我们使用该api编写hook代码
 
@@ -224,7 +224,7 @@ setImmediate(() => {
 })
 ```
 
-![7](./7.png)
+![7](pic/7.png)
 
 # 3.枚举搜索所有类/所有方法/所有重载
 
@@ -240,7 +240,7 @@ setImmediate(() => {
 })
 ```
 
-![8](./8.png)
+![8](pic/8.png)
 
 这里可以看到已经将所有的api及属性名称及地址全部枚举打印出来了
 
@@ -254,29 +254,29 @@ objection -g UnCrackable1 explore  objection 注入应用进程
 ios hooking watch class ViewController   hook ViewController类
 ```
 
-![9](9.png)
+![9](pic/9.png)
 
 ```
 ios hooking list class_methods ViewController 列出所有方法签名
  --include-parents是否包含父类方法
 ```
 
-![10](10.png)
+![10](pic/10.png)
 
 ```
 ios hooking watch method "*[ViewController buttonClick:]" --dump-args --dump-backtrace --dump-return
 hook 相应方法
 ```
 
-![11](11.png)
+![11](pic/11.png)
 
 到了这里我们想要去查看objection中的代码具体位置可以复制hook时打印出的提示字符串Found selector去objection中搜索查看如何实现
 
-![12](12.png)
+![12](pic/12.png)
 
 搜索发现提示字符串是在方法watchMethod中打印出来的，具体hook实现逻辑上边也说过，其实是watchClass-->watchMethod,然后在watchMethod中对方法地址使用Interceptor.attach 这个api进行hook，我们去官网看一下这个api的简单使用
 
-![13](13.png)
+![13](pic/13.png)
 
 ```
     const resolver = new ApiResolver('objc');
@@ -301,7 +301,7 @@ hook 相应方法
 
 这里我们查看demo源码可以看到其通过判断输入字符串与隐藏字符串进行比较得到结果
 
-![14](14.png)
+![14](pic/14.png)
 
 因此我们这里直接hook isEqualToString 方法的返回值使其返回正确
 
@@ -369,13 +369,13 @@ setImmediate(() => {
 
 (1)我们在前边ObjC基础语法说过在OC语言中消息机制会转化为objc_msgSend(receiver, selector, arg1, arg2, ...)进行调用，也就是说在方法调用时第一个参数为调用者本身，第二个参数为selector即方法的名字，第三个参数及之后的参数才是其真实参数，这里我们可以看到我们通过 const receiver = new ObjC.Object(args[0])获取了调用者本身并将其转化为OC对象，将其转化为OC对象后我们可以调用frida的api，如官网所示
 
-![15](15.png)
+![15](pic/15.png)
 
 我们可以根据这个对象使用一系列api获取其类名，方法等
 
 (2)我们要对参数赋值指针，因此我们新建NSString将其赋值这也是在官网找到的实现
 
-![16](16.png)
+![16](pic/16.png)
 
 ## ③查看调用栈
 
@@ -387,7 +387,7 @@ setImmediate(() => {
         .map(DebugSymbol.fromAddress).join('\n') + '\n');
 ```
 
-![17](./17.png)
+![17](pic/17.png)
 
 这里还是用了几个解析api：
 
@@ -424,14 +424,14 @@ objection -g UnCrackable1 explore  objection注入应用进程
 memory list modules 列举内存中加载的模块
 ```
 
-![18](18.png)
+![18](pic/18.png)
 
 ```
 memory list exports UnCrackable\ Level\ 1 列出模块中的导出符号
 memory list exports Foundation
 ```
 
-![19](19.png)
+![19](pic/19.png)
 
 我们去看看objection是如何实现的枚举模块及枚举模块内导出符号，代码在agent-->generic-->memory.ts
 
@@ -565,7 +565,7 @@ hook_all_methods_of_classes_app_only()
 
 ③使用hook_class_method 方法进行每个方法的实际hook
 
-![20](20.png)
+![20](pic/20.png)
 
 # 8.Objection 内存漫游搜刮所有对象
 
@@ -575,7 +575,7 @@ hook_all_methods_of_classes_app_only()
 ios heap search instances ViewController
 ```
 
-![21](21.png)
+![21](pic/21.png)
 
 然后我们去objection代码中查看其具体实现，位置在agent-->src-->ios-->heap.ts
 
@@ -616,13 +616,13 @@ export const getInstances = (clazz: string): IHeapObject[] => {
 
 可以看到其实最终其实是调用了ObjC.chooseSync这一frida提供的api来进行对象的搜刮
 
-![22](22.png)
+![22](pic/22.png)
 
 这里之所以使用ObjC.chooseSync是因为`ObjC.choose` 是一个异步的 API而`ObjC.chooseSync` 是一个同步的 API，如果我们需要迅速地枚举大量对象，并且可以接受可能漏掉一些对象，那么我们可以使用 `ObjC.choose`。但是如果我们需要保证枚举所有对象，并且可以接受较慢的速度，则调用 `ObjC.chooseSync` 更为适合。
 
 # 9.ObjC.choose枚举所有类输出属性
 
-当我们使用ObjC.choose枚举到实际的instance时就可以直接打印这个实例的属性frida官网也提供了这些方法![23](23.png)
+当我们使用ObjC.choose枚举到实际的instance时就可以直接打印这个实例的属性frida官网也提供了这些方法![23](pic/23.png)
 
 实现代码如下：
 
@@ -658,7 +658,7 @@ ios heap print methods 0x15dd08220
 ios heap execute 0x15dd08220 theLabel --return-string
 ```
 
-![24](24.png)
+![24](pic/24.png)
 
 可以看到这些方法都是一个对象，但是在demo中do_it方法是一个用c实现的函数，是没有对象的此时调用代码如下：
 
@@ -704,7 +704,7 @@ js代码如下:
 
 手动hook注入进程调用测试
 
-![25](25.png)
+![25](pic/25.png)
 
 执行成功，说明导出成功
 
@@ -739,6 +739,6 @@ while 1 ==1 :
         print(script.exports.callSecretFunctionon())
 ```
 
-![26](26.png)
+![26](pic/26.png)
 
 以上就是本篇文章全部内容，下一篇文章会继续学习frida为r0tracer增加ios的trace功能。
