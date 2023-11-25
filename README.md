@@ -91,3 +91,4 @@ PS：[以上手机、硬件、图书等下单地址（卖手机处点击查看�
 - [《Frida前置知识:iOS/ObjC语法进阶及其ARM汇编实现》](Student/006)
 - [《Frida hook/invoke iOS以及内存搜刮和黑盒调用》](Student/007)
 - [《2023HW移动端武器库工具技巧分享》](Student/008)
+- [《一道花指令标准算法SO还原题》](Student/009)
