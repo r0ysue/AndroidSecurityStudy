@@ -92,3 +92,4 @@ PS：[以上手机、硬件、图书等下单地址（卖手机处点击查看�
 - [《Frida hook/invoke iOS以及内存搜刮和黑盒调用》](Student/007)
 - [《2023HW移动端武器库工具技巧分享》](Student/008)
 - [《一道花指令标准算法SO还原题》](Student/009)
+- [《Pixel4刷入KernelSU后Frida和VPN抓包配置》](Student/010)
